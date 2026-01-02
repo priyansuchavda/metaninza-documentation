@@ -2,55 +2,6 @@ import React from "react";
 import { ContentRecord } from "./types";
 
 export const apiContent: ContentRecord = {
-  introduction: {
-    title: "Introduction to metaninza",
-    description:
-      "Welcome to the metaninza API documentation. Learn how to integrate our powerful API into your applications.",
-    sections: [
-      {
-        heading: "What is metaninza?",
-        content:
-          "metaninza is a comprehensive API platform that provides developers with powerful tools to build modern applications. Our API is designed to be simple, fast, and reliable.",
-      },
-      {
-        heading: "Key Features",
-        content:
-          "Our API offers RESTful endpoints, real-time data processing, secure authentication, and comprehensive documentation to help you get started quickly.",
-      },
-      {
-        heading: "Getting Help",
-        content:
-          "If you need assistance, check out our support resources or contact our developer support team. We're here to help you succeed.",
-      },
-    ],
-  },
-  "getting-started": {
-    title: "Getting Started",
-    description:
-      "Get up and running with metaninza in minutes. Follow this quick start guide to make your first API call.",
-    sections: [
-      {
-        heading: "Installation",
-        content: "Install the metaninza SDK using your preferred package manager:",
-        code: "npm install metaninza-sdk",
-      },
-      {
-        heading: "Initialize the Client",
-        content: "Create a new client instance with your API key:",
-        code: `import { Metaninza } from 'metaninza-sdk'
-
-const client = new Metaninza({
-  apiKey: 'your_api_key_here'
-})`,
-      },
-      {
-        heading: "Make Your First Request",
-        content: "Now you're ready to make your first API call:",
-        code: `const response = await client.getData()
-console.log(response)`,
-      },
-    ],
-  },
   authentication: {
     title: "Authentication",
     description: "Learn how to authenticate your API requests using API keys and tokens.",
