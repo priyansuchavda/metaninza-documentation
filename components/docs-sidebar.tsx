@@ -43,16 +43,6 @@ const productTopics = [
 
 const apiTopics = [
   {
-    id: "introduction",
-    title: "Introduction",
-    icon: Book,
-  },
-  {
-    id: "getting-started",
-    title: "Getting Started",
-    icon: Zap,
-  },
-  {
     id: "authentication",
     title: "Authentication",
     icon: Shield,
