@@ -11,23 +11,23 @@ interface DocsContentProps {
 }
 
 const content: Record<
-  > = {
-        heading: "What is metaninza?",
-        content:
-          "metaninza is a comprehensive API platform that provides developers with powerful tools to build modern applications. Our API is designed to be simple, fast, and reliable.",
-      },
-      {
-        heading: "Key Features",
-        content:
-          "Our API offers RESTful endpoints, real-time data processing, secure authentication, and comprehensive documentation to help you get started quickly.",
-      },
-      {
-        heading: "Getting Help",
-        content:
-          "If you need assistance, check out our support resources or contact our developer support team. We're here to help you succeed.",
-      },
-    ],
-  },
+  string,
+  {
+    title: string
+    description: string
+    sections: Array<{
+      heading: string
+      content: string | React.ReactNode
+      code?: string
+      method?: string
+      endpoint?: string
+      requestBody?: string
+      response?: string
+      headers?: string
+      flowchart?: "authentication" | "team-creation"
+    }>
+  }
+> = {
   "product-overview": {
     title: "Product Overview",
     description:
@@ -1494,7 +1494,6 @@ Duel Tournament:
     ],
   },
   authentication: {
-  authentication: {
     title: "Authentication",
     description: "Learn how to authenticate your API requests using API keys and tokens.",
     sections: [
@@ -1900,7 +1899,7 @@ Duel Tournament:
       },
     ],
   },
-}
+};
 
 export function DocsContent({ activeTopic }: DocsContentProps) {
   const doc = content[activeTopic]
