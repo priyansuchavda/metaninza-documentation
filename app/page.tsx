@@ -19,10 +19,11 @@ export default function Home() {
             <Menu className="h-5 w-5" />
           </Button>
           <div className="flex items-center gap-2">
-            <div className="flex h-8 w-8 items-center justify-center rounded-md bg-primary">
-              <span className="text-sm font-bold text-primary-foreground">M</span>
-            </div>
-            <span className="text-lg font-semibold">metaninza</span>
+            <img 
+              src="/main_logo-B5_-B-01.svg" 
+              alt="Metaninza Logo" 
+              className="h-8 w-auto"
+            />
           </div>
           <div className="ml-auto flex items-center gap-2">
             <Button variant="ghost" size="sm">
