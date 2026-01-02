@@ -254,7 +254,7 @@ console.log(response)`,
 }`,
       },
     ],
-  },,
+  },
   teams: {
     title: "Teams APIs",
     description:
