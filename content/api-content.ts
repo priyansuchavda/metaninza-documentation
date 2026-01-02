@@ -23,7 +23,7 @@ export const apiContent: ContentRecord = {
           "If you need assistance, check out our support resources or contact our developer support team. We're here to help you succeed.",
       },
     ],
-  },,
+  },
   "getting-started": {
     title: "Getting Started",
     description:
@@ -50,7 +50,7 @@ const client = new Metaninza({
 console.log(response)`,
       },
     ],
-  },,
+  },
   authentication: {
     title: "Authentication",
     description: "Learn how to authenticate your API requests using API keys and tokens.",
@@ -82,7 +82,7 @@ console.log(response)`,
           "Always keep your API keys secure. Never expose them in client-side code or public repositories. Use environment variables to store your keys safely.",
       },
     ],
-  },,
+  },
   user: {
     title: "User & Login APIs",
     description:

@@ -114,7 +114,7 @@ export const productContent: ContentRecord = {
         ),
       },
     ],
-  },,
+  },
   tournaments: {
     title: "Tournaments (Esports)",
     description:
@@ -282,7 +282,7 @@ export const productContent: ContentRecord = {
         ),
       },
     ],
-  },,
+  },
   "casual-games": {
     title: "Casual Games",
     description:
@@ -394,7 +394,7 @@ export const productContent: ContentRecord = {
         ),
       },
     ],
-  },,
+  },
   "quests-rewards": {
     title: "Quests, Daily Rewards, and Referral Program",
     description:
@@ -509,7 +509,7 @@ export const productContent: ContentRecord = {
         ),
       },
     ],
-  },,
+  },
   shop: {
     title: "Shop / Reward Store",
     description:

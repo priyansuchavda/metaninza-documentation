@@ -410,7 +410,7 @@ export const tournamentApiContent: ContentRecord = {
         ),
       },
     ],
-  },,
+  },
   "tournaments-api-tournament": {
     title: "Tournaments - Tournament API",
     description:
@@ -530,7 +530,7 @@ export const tournamentApiContent: ContentRecord = {
 }`,
       },
     ],
-  },,
+  },
   "tournaments-api-rounds-groups": {
     title: "Tournaments - Rounds & Groups",
     description:
@@ -662,7 +662,7 @@ export const tournamentApiContent: ContentRecord = {
         ),
       },
     ],
-  },,
+  },
   "tournaments-api-matches": {
     title: "Tournaments - Matches",
     description:
